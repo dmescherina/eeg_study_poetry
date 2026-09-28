@@ -1,6 +1,12 @@
 # Anticipatory and Theme-Specific Neural Oscillations Predict Aesthetic Evaluation of Poetry
 
-Code accompanying the PNAS paper *"Anticipatory and theme-specific neural oscillations predict aesthetic evaluation of poetry"* (Meshcherina, Chaudhuri & Bhattacharya, PNAS 2026).
+[![Paper](https://img.shields.io/badge/PNAS-10.1073%2Fpnas.2536387123-1f6f78)](https://www.pnas.org/doi/10.1073/pnas.2536387123)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+Code accompanying the PNAS paper *"Anticipatory and theme-specific neural oscillations predict aesthetic evaluation of poetry"* (Meshcherina, Chaudhuri & Bhattacharya, PNAS 2026), https://doi.org/10.1073/pnas.2536387123.
+
+An archived, citable version of this repository is available on Zenodo: https://doi.org/10.5281/zenodo.23011758.
 
 This repo contains the analysis pipeline used to extract EEG spectral features, train and evaluate predictive models (ordinal regression and LightGBM), interpret models with SHAP, and address reviewer questions on genre-vs-content and dimension-general effects.
 
@@ -53,4 +59,14 @@ pip install -r eeg_env_requirements.txt
 
 ## Citation
 
-If you use this code, please cite the PNAS paper and the companion data descriptor (Chaudhuri & Bhattacharya, *Sci. Data* 12, 1898, 2025).
+If you use this code, please cite the PNAS paper, this repository's Zenodo archive, and the companion data descriptor:
+
+- Meshcherina, D., Chaudhuri, S., & Bhattacharya, J. (2026). Anticipatory and theme-specific neural oscillations predict aesthetic evaluation of poetry. *PNAS*. https://doi.org/10.1073/pnas.2536387123
+- Meshcherina, D., Chaudhuri, S., & Bhattacharya, J. (2026). Code for "Anticipatory and theme-specific neural oscillations predict aesthetic evaluation of poetry" [Software]. Zenodo. https://doi.org/10.5281/zenodo.23011758
+- Chaudhuri, S., & Bhattacharya, J. (2025). *Sci. Data* 12, 1898. https://doi.org/10.1038/s41597-025-06189-w
+
+## License
+
+This work is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). See [`LICENSE`](LICENSE) for the full legal text.
+
+You are free to share and adapt the material for any purpose, provided you give appropriate credit, link to the license, and indicate if changes were made.
